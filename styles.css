@@ -83,11 +83,22 @@ body{
     margin: auto;
     display:block;
 }
+.image-blogs{
+    max-width: 700px;
+    margin: auto;
+    display:block;
+    padding: 2rem,5rem;
+    padding-bottom: 3rem;
+}
+.image-projects{
+    max-width: 700px;
+    display:block;
+    padding-top: 2rem;;
+    padding-bottom: 2rem;
+}
 .image-logo{
     max-width: 50px;
-    
-  
-}
+    }
 .image .icon{
     text-align: center;
 
