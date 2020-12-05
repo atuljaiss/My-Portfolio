@@ -1,14 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 :root{
-    --primary-color : #DB2777 ;
-    --gray:#D1D5DB;
+    --primary-color :#34D399 ;
+    --gray:#E5E7EB;
+    --bb: #111827;
+
 }
 body{
+    font-family: 'Lato', sans-serif;
+}
+/**body{
     font-family: 'Source Code Pro', monospace;
 
-}
+}**/
 body{
     color:black
 }
@@ -25,19 +30,21 @@ body{
 .link{
     
     text-decoration: none;
-    color:white;
+    color: var(--bb);
     padding: 1rem;
     margin-top: 1rem;
+    font-weight: bold;
 
 }
 .link-primary{
     text-decoration: none;
     padding: 0.5rem 1.5rem;
+    font-weight: bold;
 }
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 00.5rem;
-    color:white;
+    color:var(--bb);
     }
     .link-secondary {
         text-decoration: none;
@@ -63,12 +70,14 @@ body{
     border-bottom-left-radius: 1rem;
 }
 .navigation .title{
-    color:white;
+    color:var(--bb);
     font-weight : bold;
+    font-style: inherit;
+    font-size: xx-large;
 
 }
 .navigation .link{
-    color:white;
+    color:var(--bb);
     text-align: right;  
 }
 .navigation .nav-pills{
@@ -76,7 +85,8 @@ body{
 }
 .navigation .link-active{
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
+    font: outline;
 }
 .image .image-icon{
     max-width: 400px;
@@ -122,7 +132,7 @@ body{
     padding: 1rem;
     border-top-right-radius: 1rem;
     text-align: center;
-    color: white;
+    color: var(--bb);
     
 }
 .footer ul{
