@@ -142,3 +142,55 @@ body{
     font-weight: bold;
     font-size: large;
 }
+
+.contents{
+    min-height: 100vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background:black;
+   
+}
+.contents .like{
+    border: 3px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+.tech-title{
+    color: bisque
+}
+
+.image-ans{
+    margin: auto;
+    max-width: 500px;
+    padding-top: 1rem;
+    padding-left:3rem ;
+}
+input{
+    width: 50px;
+    border:none;
+    background: none;
+    color: #919191;
+    font-size: 30px;
+    margin: 0 10px;
+    pointer-events: none;
+}
+button{
+    color: #fff;
+    
+    border: 10px;
+    font-size: 30px;
+    margin: 10px 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+button:active{
+    color: yellow;
+    transform: scale(1.2);
+
+
+}
+   

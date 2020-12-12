@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Dummy Technical Blog.
+   
+   <div class='containers center-containers'>
+    <div class='contents'>
+       <h1 class= 'title tech-title'>Google Pay Events Answers</h1>
+       <h2>Go India New Event Live Now in Naintal ✌️❤️l</h2>
+
+        <p>Take Part And You Could Earn ₹5 to ₹100, City Tickets or KM 😍😘🥳</p>
+        
+        <h2>Quiz Answers 👇</h2>
+       
+       <img class=' image image-ans ' src='image/ans.jpeg'/>
+
+       <p>Hit Thumbs-up if you like my work!</p>
+       <div class='like'>
+           <button id='likebtn'>👍🏻
+               <i class='fa fa-thumbs-up'></i>
+           </button>
+           <input type="number" id="input1" value="0" name="">
+
+        </div>
+    </div>
+   </div> 
+   <script type="text/javascript">
+   let likebtn = document.querySelector('#likebtn');
+   let input1 = document.querySelector('#input1');
+   likebtn.addEventListener('click',()=>{
+       input1.value=parseInt(input1.value)+1;
+       input1.style.color="#12ff00";
+   })
+   
+    </script>
 </body>
 </html> .
