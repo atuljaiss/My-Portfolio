@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    background-color: azure;
+}
+.first-sec{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 10px yellow double;
+}
+.second-sec{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    border:10px;
+    border-style: dotted double solid;
+    border-color: red green yellow;
+}
+.third-sec{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+}
+.square{
+    float: left;
+    margin:10px;
+}
+
