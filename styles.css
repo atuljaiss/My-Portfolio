@@ -101,7 +101,8 @@ body{
     padding-bottom: 3rem;
 }
 .image-projects{
-    max-width: 700px;
+    max-width: 500px;
+    max-height:500px;
     display:block;
     padding-top: 2rem;;
     padding-bottom: 2rem;
@@ -191,6 +192,9 @@ button:active{
     color: yellow;
     transform: scale(1.2);
 
+
+}
+.image-projects{
 
 }
    
